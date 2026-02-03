@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lab/Lectures/Lecture2/model/recipe.dart';
 
 void main() {
   runApp(const RecipeList());
@@ -11,7 +10,7 @@ class RecipeList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Recipe App',
+      title: 'Recipe List',
       theme: ThemeData(
         
       ),
@@ -37,28 +36,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
-        backgroundColor: Colors.green,
-      ),
-      body:Center(
-        child: ListView.builder( //it adds expanded auto increase in length
-          itemCount: Recipe.samples.length,
-          itemBuilder: (BuildContext context, int index) {
-            return buildRecipeCard(Recipe.samples[index]);
-          },
-        ),
-      )
-    );
-  }
-
-  Widget buildRecipeCard(Recipe recipe) {
-    return Card(
-      child: Column(
-        children: <Widget>[
-          Image.asset(recipe.imageUrl, fit: BoxFit.contain,),
-          Text(
-            recipe.label,
-          ),
-        ],
       ),
     );
   }
