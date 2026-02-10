@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lab/Labs/lab4/Task1/component/recipeDetails.dart';
-import 'package:flutter_lab/Labs/lab4/Task1/model/recipe.dart';
+import 'package:flutter_lab/Labs/lab3/Task3/component/recipeDetails.dart';
+import 'package:flutter_lab/Labs/lab3/Task3/model/recipe.dart';
 
 void main() {
   runApp(const RecipeList());
