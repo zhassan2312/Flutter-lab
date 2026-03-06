@@ -1,0 +1,7 @@
+[
+  {"id": 1, "name": "Gaming Laptop", "price": 1450},
+  {"id": 2, "name": "Wireless Earbuds", "price": 95},
+  {"id": 3, "name": "Mechanical Keyboard", "price": 120},
+  {"id": 4, "name": "4K Monitor", "price": 540},
+  {"id": 5, "name": "USB-C Hub", "price": 45}
+]
