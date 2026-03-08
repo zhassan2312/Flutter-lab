@@ -74,7 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body:Center(
+      body:
+      Center(
         child:Row(children: [
           //30 percent width left area and 70 percent right area
           Expanded(

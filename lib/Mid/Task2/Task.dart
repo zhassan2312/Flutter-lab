@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Mid/Task2/model/tasks.dart';
+import 'model/tasks.dart';
 
 void main() {
   runApp(const TaskManager());
