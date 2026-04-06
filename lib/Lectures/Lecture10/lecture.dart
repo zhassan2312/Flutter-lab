@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'lectures/Lecture10//ui/main_screen.dart';
+import 'ui/main_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
